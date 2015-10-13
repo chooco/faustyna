@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Faustyna</string>
+
+    <string name="titleAktualnosci">Aktualności</string>
+    <string name="titleDzienniczek">Dzienniczek św. Faustyny</string>
+    <string name="titleNabozenstwo">Nabożeństwo do Miłosierdzia Bożego</string>
+    <string name="titleFaustyna">Święta Siostra Faustyna</string>
+    <string name="titleSanktuarium">Sanktuarium w Krakowie-Łagiewnikach</string>
+    <string name="titleGaleria">Galeria</string>
+    <string name="titleTransmisja">Transmisja on-line</string>
+    <string name="titleKoronka">Koronka za konających</string>
+    <string name="titleSklep">Sklep MISERICORDIA</string>
+    <string name="titleKwartalnik">Kwartalnik ORĘDZIE MIŁOSIERDZIA</string>
+    <string name="titleFacebook">Facebook</string>
+    <string name="titleSDM">ŚDM 2016</string>
+    <string name="titleYt">YouTube</string>
+    <string name="titleWsparcie">Wsparcie</string>
+    <string name="titleWiecej">Więcej</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
