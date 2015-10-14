@@ -1,6 +1,8 @@
 package com.example.karolina.faustyna;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -89,9 +91,13 @@ public class MainActivity extends AppCompatActivity
                 break;
             case 11:
                 mTitle = getString(R.string.titleFacebook);
+                Intent iFacebook = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/groups/sanktuariumbozegomilosierdzia/"));
+                startActivity(iFacebook);
                 break;
             case 12:
                 mTitle = getString(R.string.titleSDM);
+                Intent iSDM = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/Faustyna2016?fref=ts"));
+                startActivity(iSDM);
                 break;
             case 13:
                 mTitle = getString(R.string.titleYt);
@@ -101,6 +107,8 @@ public class MainActivity extends AppCompatActivity
                 break;
             case 15:
                 mTitle = getString(R.string.titleWiecej);
+                Intent iWiecej = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.faustyna.pl/zmbm/"));
+                startActivity(iWiecej);
                 break;
         }
     }
@@ -111,7 +119,6 @@ public class MainActivity extends AppCompatActivity
         actionBar.setDisplayShowTitleEnabled(true);
         actionBar.setTitle(mTitle);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
